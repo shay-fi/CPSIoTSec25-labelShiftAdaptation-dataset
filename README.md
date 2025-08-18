@@ -13,4 +13,3 @@ If using this dataset, please cite our paper:
     address = {Taipei, Taiwan},
     doi = {}
 }
-<\pre>
