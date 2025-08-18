@@ -3,7 +3,7 @@ Traffic data for our CPSIoTSec'25 paper.
 Data corresponding to the "representative home" mentioned in the paper can be found in ./home04.
 
 If using this dataset, please cite our paper:
-<pre>```bibtex
+<pre>
 @INPROCEEDINGS{25CPSIoTSec,
     author = {Azizi, Shayan and Calderan, Felipe Vaiano and Okui, Norihiro and Nakahara, Masataka and Kubota, Ayumu and Quiles, Marcos G. and Batista, Gustavo and Habibi Gharakheili, Hassan},
     booktitle = {Proc. CPSIoTSec},
@@ -13,4 +13,4 @@ If using this dataset, please cite our paper:
     address = {Taipei, Taiwan},
     doi = {}
 }
-```<\pre>
+<\pre>
