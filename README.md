@@ -7,16 +7,16 @@ In each folder can be found the full training data, ``train.csv`` (collected bet
 Each CSV file contains 23 columns -- 22 for flow-level traffic features and one column for the class label. The flow-level features are YAF-exported [IPFIX Information Elements](https://tools.netsa.cert.org/yaf/docs.html#yaf-3-rec-tmpl). Here we brieflt explain the features.  
 
 There are 11 forward features measured on packets directed from the flow initiating end to the other:
-- **packetTotalCount**: Number of packets.
-- **octetTotalCount**: Number of Bytes.
-- **smallPacketCount**: Number of packet with less than 60 Bytes of payload.
-- **largePacketCount**: Number of packet with at least 220 Bytes of payload.
-- **nonEmptyPacketCount**: Number of packets with non-empty payload.
-- **firstNonEmptyPacketSize**: Number of Bytes in the payload of the first non-empty packet.
-- **dataByteCount**: Number of payload Bytes transmitted.
-- **averageInterarrivalTime**: The average of the packet interarrival times (milliseconds).
-- **maxPacketSize**: The largest payload size in Bytes. 
-- **standardDeviationPayloadLength**: The standard deviation of payload size (Bytes) for up to the first 10 non-empty packets.
+- **packetTotalCount**: Number of packets,
+- **octetTotalCount**: Number of Bytes,
+- **smallPacketCount**: Number of packet with less than 60 Bytes of payload,
+- **largePacketCount**: Number of packet with at least 220 Bytes of payload,
+- **nonEmptyPacketCount**: Number of packets with non-empty payload,
+- **firstNonEmptyPacketSize**: Number of Bytes in the payload of the first non-empty packet,
+- **dataByteCount**: Number of payload Bytes transmitted,
+- **averageInterarrivalTime**: The average of the packet interarrival times (milliseconds),
+- **maxPacketSize**: The largest payload size in Bytes,
+- **standardDeviationPayloadLength**: The standard deviation of payload size (Bytes) for up to the first 10 non-empty packets,
 - **standardDeviationInterarrivalTime**: The standard deviation of interarrival times (milliseconds) for up to the first 10 packets,
 
 and 11 reverse features measured based on packet sents in the reverse direction:
