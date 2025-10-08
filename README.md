@@ -44,8 +44,7 @@ And 11 reverse features, measured on packets sent from the responder back to the
     address = {Taipei, Taiwan},
     doi = {10.1145/3733801.3764204}
 }
-<\pre>
-
+</pre>
 
 ## Related Links:
 https://iotanalytics.unsw.edu.au
